@@ -202,9 +202,6 @@ h2 {
   font-size: 50px;
   margin-bottom: 20px;
 }
-.mobile-responsive {
-  margin-top: 40px;
-}
 /* Portfolio Section */
 #portfolio {
   padding: 50px 0;
@@ -397,7 +394,8 @@ nav .fa-solid {
   .header__img {
     /* display: none; */
     width: 100%;
-    height: 1000px;
+    height: 800px;
+    overflow: hidden;
   }
   .header__info {
     font-size: 16px;
@@ -412,7 +410,13 @@ nav .fa-solid {
     margin-bottom: 30px;
   }
   .about__title {
-    font-size: 20px;
+    font-size: 30px;
+  }
+  #about h3 {
+    font-size: 22px;
+  }
+  #about p {
+    font-size: 16px;
   }
   .contact__left,
   .contact__right {
