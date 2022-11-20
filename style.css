@@ -418,7 +418,7 @@ nav .fa-solid {
     height: 100vh;
   }
   .header__info {
-    font-size: 16px;
+    font-size: 20px;
   }
   .header__info h1 {
     font-size: 40px;
@@ -432,6 +432,7 @@ nav .fa-solid {
     width: 100%;
     margin-bottom: 30px;
   }
+  .about__col-1,
   .about__col-2 {
     flex-basis: 100%;
   }
