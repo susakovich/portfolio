@@ -106,7 +106,6 @@ h2 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: relative;
 }
 .about__col-1 {
   flex-basis: 35%;
@@ -429,7 +428,7 @@ nav .fa-solid {
     margin-top: 20px;
   }
   .about__picture {
-    width: 100%;
+    /* width: 100%; */
     margin-bottom: 30px;
   }
   .about__col-1,
