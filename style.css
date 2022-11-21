@@ -46,11 +46,14 @@ nav ul li a {
   text-transform: uppercase;
   position: relative;
 }
+nav ul li a:hover {
+  color: #4361ee;
+}
 nav ul li a::after {
   content: "";
   width: 0;
   height: 3px;
-  background-color: #4361ee;
+  background-color: #ffffff;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -76,7 +79,6 @@ h2 {
 }
 .header__info p {
   line-height: 150%;
-  /* color: #4361ee; */
 }
 .header__info i {
   font-size: 70px;
@@ -85,15 +87,10 @@ h2 {
 }
 .header__info .fa-sharp {
   margin-top: 50px;
-  font-size: 100px;
+  font-size: 80px;
   color: white;
 }
-/* .header__img {
-  width: 60%;
-  height: 100vh;
-  overflow: hidden;
-  float: right;
-} */
+
 /* About Section */
 #about {
   padding: 80px 0;
@@ -392,8 +389,7 @@ nav .fa-solid {
     display: block;
     font-size: 18px;
   }
-  .header__info .fa-sharp,
-  .fa-solid {
+  .header__info i {
     font-size: 24px;
   }
   nav ul {
