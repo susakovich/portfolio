@@ -85,6 +85,11 @@ h2 {
   color: #4361ee;
   margin-bottom: 40px;
 }
+.header__info .fa-sharp {
+  margin-top: 50px;
+  font-size: 100px;
+  color: white;
+}
 /* .header__img {
   width: 60%;
   height: 100vh;
@@ -355,6 +360,7 @@ form textarea {
   color: #efefef;
   font-size: 18px;
   border-radius: 6px;
+  resize: none;
 }
 form .contact__btn {
   padding: 14px 60px;
