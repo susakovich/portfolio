@@ -31,9 +31,6 @@ nav {
   color: #efefef;
   width: 220px;
 }
-.logo:hover {
-  text-decoration: underline;
-}
 nav span {
   color: #4361ee;
 }
@@ -63,7 +60,7 @@ nav ul li a:hover::after {
   transition: all ease-in-out 0.8s;
 }
 .header__info {
-  margin-top: 10%;
+  margin-top: 7%;
   /* margin-right: 70px; */
   font-size: 30px;
   /* float: left; */
@@ -116,6 +113,11 @@ h2 {
 .about__picture {
   width: 100%;
   border-radius: 40px;
+  cursor: pointer;
+}
+.about__picture:hover {
+  transform: rotate(0.035turn);
+  transition: transform ease-in-out 2s;
 }
 .about__title {
   font-size: 60px;
@@ -230,6 +232,9 @@ h2 {
   position: relative;
   overflow: hidden;
 }
+.portfolio__info {
+  font-size: 20px;
+}
 .portfolio__worklist-work img {
   width: 100%;
   border-radius: 10px;
@@ -276,7 +281,7 @@ h2 {
 }
 .portfolio__worklist-work:hover .portfolio__worklist-layer {
   height: 100%;
-  transition: 0.8s;
+  transition: 1s;
 }
 .portfolio__btn {
   display: block;
