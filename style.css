@@ -392,7 +392,8 @@ nav .fa-solid {
     display: block;
     font-size: 18px;
   }
-  .header__info .fa-sharp {
+  .header__info .fa-sharp,
+  .fa-solid .fa-code {
     font-size: 18px;
   }
   nav ul {
