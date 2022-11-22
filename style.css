@@ -45,6 +45,7 @@ nav ul li a {
   font-size: 16px;
   text-transform: uppercase;
   position: relative;
+  transition: all ease-in-out 0.6s;
 }
 nav ul li a:hover {
   color: #4361ee;
@@ -57,10 +58,11 @@ nav ul li a::after {
   position: absolute;
   left: 0;
   bottom: -6px;
+  transition: all ease-in-out 0.6s;
 }
 nav ul li a:hover::after {
   width: 100%;
-  transition: all ease-in-out 0.8s;
+  transition: all ease-in-out 0.6s;
 }
 .header__info {
   margin-top: 7%;
@@ -92,6 +94,30 @@ h2 {
 }
 
 /* About Section */
+.about__title {
+  color: #efefef;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline;
+}
+
+.about__title::before {
+  background: rgb(67, 97, 238);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.about__title:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
 #about {
   padding: 80px 0;
   color: #efefef;
@@ -114,10 +140,11 @@ h2 {
   width: 100%;
   border-radius: 40px;
   cursor: pointer;
+  transition: transform ease-in-out 1s;
 }
 .about__picture:hover {
   transform: rotate(0.035turn);
-  transition: transform ease-in-out 2s;
+  transition: transform ease-in-out 1s;
 }
 .about__title {
   font-size: 60px;
@@ -188,6 +215,8 @@ h2 {
   font-weight: 400;
   border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
+  transition: all ease-in-out 0.6s;
+
   cursor: pointer;
 }
 .services__list h3 {
@@ -239,6 +268,7 @@ h2 {
   width: 100%;
   border-radius: 10px;
   display: inline-block;
+  transition: all ease-in-out 0.5s;
 }
 .portfolio__worklist-work:hover img {
   transform: scale(1.2);
@@ -260,6 +290,7 @@ h2 {
   padding: 0 40px;
   text-align: center;
   font-size: 14px;
+  transition: all ease-in-out 0.5s;
 }
 .portfolio__worklist-layer h3 {
   font-weight: 500;
@@ -325,6 +356,7 @@ h2 {
   margin-right: 20px;
   color: #efefef;
   font-size: 26px;
+  transition: transform 0.6s;
 }
 #contact i:hover {
   color: #4361ee;
@@ -334,6 +366,7 @@ h2 {
 .portfolio__btn.contact__btn {
   display: inline-block;
   background: #4361ee;
+  transition: transform 0.6s;
 }
 .portfolio__btn.contact__btn:hover {
   background-color: #efefef;
