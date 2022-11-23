@@ -88,7 +88,7 @@ h2 {
   margin-bottom: 40px;
 }
 .header__info .fa-sharp {
-  margin-top: 100px;
+  margin-top: 60px;
   font-size: 80px;
   color: white;
 }
@@ -455,6 +455,9 @@ nav .fa-solid {
   .header__info .header__arrow i {
     font-size: 34px;
   }
+  header .contact__socials i {
+    font-size: 14px;
+  }
   nav ul {
     background-color: #4361ee;
     position: fixed;
@@ -476,9 +479,6 @@ nav .fa-solid {
     left: 20px;
     cursor: pointer;
   }
-  .logo {
-    font-size: 26px;
-  }
   header {
     height: 100vh;
   }
@@ -492,6 +492,7 @@ nav .fa-solid {
   #about {
     padding: 10px;
     margin-top: 20px;
+    height: 100vh;
   }
   .about__picture {
     /* width: 100%; */
