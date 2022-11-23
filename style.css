@@ -511,11 +511,11 @@ nav .fa-solid {
   #about p {
     font-size: 20px;
   }
-  #about .portfolio__btn {
-    display: none;
-  }
   .contact__left,
   .contact__right {
     flex-basis: 100%;
+  }
+  #services {
+    margin-top: 50px;
   }
 }
