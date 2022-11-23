@@ -25,12 +25,10 @@ nav {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-/* .logo {
-  font-size: 50px;
-  text-decoration: none;
-  color: #efefef;
-  width: 220px;
-} */
+nav img {
+  height: 150px;
+  width: 150px;
+}
 nav span {
   color: #4361ee;
 }
@@ -478,7 +476,7 @@ nav .fa-solid {
     font-size: 18px;
   }
   nav ul {
-    background-color: #4361ee;
+    background-color: #4362ee;
     position: fixed;
     top: 0;
     right: -120px;
@@ -498,7 +496,6 @@ nav .fa-solid {
     left: 20px;
     cursor: pointer;
   }
-
   /* Media Queries About */
   #about {
     padding: 10px;
