@@ -446,6 +446,9 @@ nav .fa-solid {
     display: block;
     font-size: 18px;
   }
+  .header__info {
+    margin-top: 60px;
+  }
   .header__info i {
     font-size: 34px;
   }
@@ -516,6 +519,6 @@ nav .fa-solid {
     flex-basis: 100%;
   }
   #services {
-    margin-top: 150px;
+    margin-top: 450px;
   }
 }
