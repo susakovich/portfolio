@@ -461,7 +461,8 @@ nav .fa-solid {
     font-size: 18px;
   }
   .header__info {
-    margin-top: 20px;
+    margin-top: 60px;
+    font-size: 20px;
   }
   .header__info i {
     font-size: 34px;
@@ -478,9 +479,6 @@ nav .fa-solid {
   }
   header {
     height: 100vh;
-  }
-  .header__info {
-    font-size: 20px;
   }
   .header__info h1 {
     font-size: 36px;
