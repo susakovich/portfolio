@@ -473,7 +473,7 @@ nav .fa-solid {
     font-size: 18px;
   }
   .header__info {
-    margin-top: 60px;
+    margin-top: 100px;
     font-size: 20px;
   }
   .header__info i {
@@ -506,7 +506,7 @@ nav .fa-solid {
     width: 60px;
   }
   nav ul {
-    background-color: #892be27d;
+    background-color: #892be2;
     position: fixed;
     top: 0;
     right: -120px;
