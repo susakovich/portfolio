@@ -19,6 +19,19 @@ header {
   width: 100%;
   height: 100vh;
 }
+.slidein {
+  aspect-ratio: 1 / 1;
+  animation: 2s linear animating-logo;
+}
+@keyframes animating-logo {
+  from {
+    transform: translateX(-420px);
+  }
+  to {
+    transform: translateX(50px);
+  }
+}
+
 nav {
   display: flex;
   align-items: center;
