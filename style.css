@@ -26,8 +26,8 @@ nav {
   flex-wrap: wrap;
 }
 nav img {
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
 }
 nav span {
   color: #4361ee;
@@ -88,7 +88,7 @@ h2 {
 .header__info .fa-sharp {
   margin-top: 60px;
   font-size: 80px;
-  color: white;
+  color: #efefef;
 }
 header .contact__socials {
   float: left;
@@ -102,7 +102,7 @@ header .contact__socials {
   transition: all ease-in-out 0.5s;
 }
 header .contact__socials i {
-  color: white;
+  color: #efefef;
   margin-bottom: 10px;
   transition: all ease-in-out 0.5s;
 }
