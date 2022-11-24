@@ -20,15 +20,16 @@ header {
   height: 100vh;
 }
 .slidein {
-  aspect-ratio: 1 / 1;
-  animation: 2s linear animating-logo;
+  animation: animating-logo 2s ease-out forwards;
 }
 @keyframes animating-logo {
   from {
-    transform: translateX(-420px);
+    transform: translateX(-400px);
+    opacity: 0;
   }
   to {
-    transform: translateX(50px);
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
