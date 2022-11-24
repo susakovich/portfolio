@@ -33,6 +33,20 @@ header {
   }
 }
 
+.slide_text {
+  animation: animating-text 2s ease-out forwards;
+}
+@keyframes animating-text {
+  from {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -44,7 +58,7 @@ nav img {
   width: 120px;
 }
 nav span {
-  color: #4361ee;
+  color: #8a2be2;
 }
 nav ul li {
   display: inline-block;
@@ -60,7 +74,7 @@ nav ul li a {
   transition: all ease-in-out 0.6s;
 }
 nav ul li a:hover {
-  color: #4361ee;
+  color: #8a2be2;
 }
 nav ul li a::after {
   content: "";
@@ -89,14 +103,14 @@ h2 {
   margin-bottom: 20px;
 }
 .header__info span {
-  color: #4361ee;
+  color: #8a2be2;
 }
 .header__info p {
   line-height: 150%;
 }
 .header__info i {
   font-size: 70px;
-  color: #4361ee;
+  color: #8a2be2;
   margin-bottom: 40px;
 }
 .header__info .fa-sharp {
@@ -121,7 +135,7 @@ header .contact__socials i {
   transition: all ease-in-out 0.5s;
 }
 header .contact__socials i:hover {
-  color: #4361ee;
+  color: #8a2be2;
   transition: all ease-in-out 0.5s;
 }
 /* About Section */
@@ -133,7 +147,7 @@ header .contact__socials i:hover {
   display: inline;
 }
 .about__title::before {
-  background: rgb(67, 97, 238);
+  background: #8a2be2;
   content: "";
   inset: 0;
   position: absolute;
@@ -152,7 +166,7 @@ header .contact__socials i:hover {
   height: 100vh;
 }
 #about span {
-  color: #4361ee;
+  color: #8a2be2;
 }
 .row {
   display: flex;
@@ -172,7 +186,7 @@ header .contact__socials i:hover {
   transition: transform ease-in-out 1s;
 }
 .about__picture:hover {
-  transform: rotate(0.035turn);
+  transform: rotate(0.015turn);
   transition: transform ease-in-out 1s;
 }
 .about__title {
@@ -192,7 +206,7 @@ header .contact__socials i:hover {
   display: flex;
   margin: 20px 0 40px;
 }
-.about__tab-links {
+/* .about__tab-links {
   margin-right: 50px;
   font-size: 18px;
   font-weight: 500;
@@ -212,13 +226,13 @@ header .contact__socials i:hover {
 }
 .about__tab-links.active-link::after {
   width: 50%;
-}
+} */
 .about__tab-contents ul li {
   list-style: none;
   margin: 10px 0;
 }
 .about__tab-contents span {
-  color: #4361ee;
+  color: #8a2be2;
   font-size: 14px;
 }
 .about__tab-contents {
@@ -263,7 +277,7 @@ header .contact__socials i:hover {
   display: inline-block;
 }
 .services__list div:hover {
-  background: #4361ee;
+  background: #8a2be2;
   transform: translateY(-15px);
   transition: all ease-in-out 0.6s;
 }
@@ -279,7 +293,7 @@ header .contact__socials i:hover {
   padding: 50px 0;
 }
 #portfolio span {
-  color: #4361ee;
+  color: #8a2be2;
 }
 .portfolio__worklist {
   display: grid;
@@ -330,7 +344,7 @@ header .contact__socials i:hover {
 }
 .portfolio__worklist-layer a {
   margin-top: 40px;
-  color: #4361ee;
+  color: #8a2be2;
   text-decoration: none;
   font-size: 18px;
   background-color: #efefef;
@@ -350,7 +364,7 @@ header .contact__socials i:hover {
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid #4361ee;
+  border: 1px solid #8a2be2;
   padding: 14px 50px;
   border-radius: 10px;
   text-decoration: none;
@@ -359,12 +373,12 @@ header .contact__socials i:hover {
   transition: all ease-in-out 0.5s;
 }
 .portfolio__btn:hover {
-  background-color: #4361ee;
+  background-color: #8a2be2;
   transition: all ease-in-out 0.5s;
 }
 /* Contact Section */
 #contact span {
-  color: #4361ee;
+  color: #8a2be2;
 }
 .contact__left {
   flex-basis: 35%;
@@ -393,17 +407,17 @@ header .contact__socials i:hover {
   transition: transform 0.6s;
 }
 #contact i:hover {
-  color: #4361ee;
+  color: #8a2be2;
   transform: translateY(-5px);
   transition: transform 0.6s;
 }
 .portfolio__btn.contact__btn {
   display: inline-block;
-  background: #4361ee;
+  background: #131312;
   transition: all ease-in-out 0.5s;
 }
 .portfolio__btn.contact__btn:hover {
-  background-color: #2c2b2c;
+  background-color: #8a2be2;
   color: #efefef;
   /* transform: translateY(-1px); */
   transition: all ease-in-out 0.5s;
