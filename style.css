@@ -550,13 +550,13 @@ nav .fa-solid {
     font-size: 22px;
   }
   #about p {
-    font-size: 20px;
+    font-size: 18px;
   }
   .contact__left,
   .contact__right {
     flex-basis: 100%;
   }
   #services {
-    margin-top: 450px;
+    margin-top: 700px;
   }
 }
