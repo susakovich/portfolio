@@ -468,7 +468,10 @@ nav .fa-solid {
   display: none;
   cursor: pointer;
 }
-@media only screen and (max-width: 700px) {
+
+/* Responsive styles for mobile devices */
+@media only screen and (max-width: 767px) {
+  /* Add styles for smaller screens */
   nav .fa-solid {
     display: block;
     font-size: 18px;
@@ -578,4 +581,14 @@ nav .fa-solid {
   #services i {
     font-size: 30px;
   }
+}
+
+/* Responsive styles for tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Add styles for larger screens */
+}
+
+/* Responsive styles for landscape mode on tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* Add styles for landscape mode */
 }
