@@ -275,7 +275,17 @@
             >
           </div>
           <div class="contact__right">
-            <form name="submit-to-google-sheet">
+            <form
+              target="_blank"
+              action="https://formsubmit.co/susakovich@gmail.com"
+              method="POST"
+            >
+              <input
+                type="hidden"
+                name="_next"
+                value="https://susakovich.dev/thanks.html"
+              />
+
               <input type="text" name="Name" placeholder="Your Name" required />
               <input
                 type="email"
@@ -284,11 +294,10 @@
                 required
               />
               <textarea
-                disabled
                 name="Message"
                 cols="20"
                 rows="5"
-                placeholder="Currently disabled, contact directly via email"
+                placeholder="Enter your message here"
               ></textarea>
               <button type="submit" class="portfolio__btn contact__btn">
                 Submit
