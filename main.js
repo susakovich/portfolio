@@ -16,12 +16,9 @@ document.querySelector("form").addEventListener("submit", function (event) {
   // Prevent the form from submitting
   event.preventDefault();
 
-  // Loop through all input elements
-  for (var i = 0; i < inputs.length; i++) {
+  // Loop through all input elements using forEach
+  Array.from(inputs).forEach(function (input) {
     // Clear the value of each input element
-    inputs[i].value = "";
-  }
-
-  // Log a message to confirm that the form was submitted
-  console.log("Form submitted!");
+    input.value = "";
+  });
 });
