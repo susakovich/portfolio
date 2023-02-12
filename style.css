@@ -586,9 +586,91 @@ nav .fa-solid {
 /* Responsive styles for tablet devices */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* Add styles for larger screens */
+  /* Media Queries About */
+  nav img {
+    height: 100px;
+    width: 100px;
+  }
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+  }
+  .about__picture {
+    /* width: 100%; */
+    margin-bottom: 30px;
+  }
+  .about__col-1,
+  .about__col-2 {
+    flex-basis: 100%;
+  }
+  .about__title {
+    font-size: 30px;
+  }
+  #about h3 {
+    font-size: 30px;
+  }
+  #about p {
+    font-size: 20px;
+  }
+  .contact__left,
+  .contact__right {
+    flex-basis: 100%;
+  }
+  #services {
+    margin-top: 700px;
+  }
+  #services h3 {
+    font-size: 30px;
+  }
+  #services p {
+    font-size: 20px;
+  }
+  .services__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 50px;
+  }
+  .services__list div {
+    padding: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+  }
+  .services__list h3 {
+    font-size: 22px;
+  }
+  #services i {
+    font-size: 30px;
+  }
+  .portfolio__info {
+    font-size: 20px;
+  }
+  #portfolio .about__title {
+    font-size: 30px;
+  }
+  #contact h2 {
+    font-size: 30px;
+  }
+  #contact p {
+    font-size: 20px;
+  }
 }
 
 /* Responsive styles for landscape mode on tablet devices */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   /* Add styles for landscape mode */
+  .about__col-1 {
+    flex-basis: 70%;
+  }
+  .about__col-2 {
+    flex-basis: 100%;
+  }
+  .services__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+    margin-top: 50px;
+  }
 }
